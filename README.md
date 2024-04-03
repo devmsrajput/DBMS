@@ -38,4 +38,8 @@
 + ### OLAP (Online Analytical Processing) and OLTP (Online Transaction Processing):
     | Aspects | OLAP (Online Analytical Processing) | OLTP (Online Transaction Processing) |
     |---|---|---|
-    | Primary Function | Designed for complex data analysis. | Handles daily transactions of data processing. | 
+    | Primary Function | Designed for complex data analysis. | Handles daily transactions of data processing. |
+    | Database design | Star or snowflake schema, optimizing for read operations. | Normalised schema, optimizing for write operations. |
+    | Query complexity | Complex queries involving aggregations and computations across multiple dimensions. | Simple and standard queries focusing or CRUD operations (CREATE, READ, UPDATE, DELETE). |
+    | Data volume | Deals with the large volumes of data for historical analysis. | Processes a high number of small transactions. |
+    | Response time | Slower response time due to complex queries. | Fast response time to support high transaction rates. |
