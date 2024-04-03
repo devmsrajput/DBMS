@@ -28,3 +28,6 @@
     - Above the physical level, this level showcases data as entity sets and their relationships, detailing the types and connections between stored data in the database.
   - #### View Level:
     - This is the pinnacle of data abstraction, displaying only a portion of the entire database focusing on user-interest areas. It can represent, multiple views of the same data, allowing users to access information through various applications from the database.
+
+  #### Data independence:
+    - Data independence is defined as the capacity to change the schema at one level of the database without having to change the schema of the next higher level.
