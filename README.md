@@ -22,12 +22,9 @@
     | Concurrent access anomalies | Conflicts and inconsistencies from simultaneous data access/modifications, causing concurrent access anomalies | Advanced concurrency control to manage multiple users accessing the data simultaneously, reducing anomalies.
 
 + ### Data abstraction level:
-  - #### Physical Level:
-    - The internal schema details data storage and access on hardware, featuring the lowest level of data abstraction with complex structures, predominantly managed by the database administrator.
-  - #### Conceptual Level/Logical Level:
-    - Above the physical level, this level showcases data as entity sets and their relationships, detailing the types and connections between stored data in the database.
-  - #### View Level:
-    - This is the pinnacle of data abstraction, displaying only a portion of the entire database focusing on user-interest areas. It can represent, multiple views of the same data, allowing users to access information through various applications from the database.
+  - **Physical Level**: The internal schema details data storage and access on hardware, featuring the lowest level of data abstraction with complex structures, predominantly managed by the database administrator.
+  - **Conceptual Level/Logical Level**: Above the physical level, this level showcases data as entity sets and their relationships, detailing the types and connections between stored data in the database.
+  - **View Level**: This is the pinnacle of data abstraction, displaying only a portion of the entire database focusing on user-interest areas. It can represent, multiple views of the same data, allowing users to access information through various applications from the database.
 
   #### Data independence:
     - Data independence is defined as the capacity to change the schema at one level of the database without having to change the schema of the next higher level.
