@@ -23,6 +23,6 @@
 
 + ### Data abstraction level:
   - #### Physical Level:
-    The internal schema details data storage and access on hardware, featuring the lowest level of data abstraction with complex structures, predominantly managed by the database administrator.
+    - The internal schema details data storage and access on hardware, featuring the lowest level of data abstraction with complex structures, predominantly managed by the database administrator.
   - Conceptual Level/Logical Level
   - View Level
