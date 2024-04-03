@@ -36,3 +36,6 @@
     - **Database Schema**: The database schema refers to the overall design of the database, illustrating the logical structure and organization of data. It defines how data is organised and how relationships between data are handled, essentially serving as the blueprint for how the databases is constructed.
 
 + ### OLAP (Online Analytical Processing) and OLTP (Online Transaction Processing):
+    | Aspects | OLAP (Online Analytical Processing) | OLTP (Online Transaction Processing) |
+    |---|---|---|
+    | Primary Function | Designed for complex data analysis. | Handles daily transactions of data processing. | 
