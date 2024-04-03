@@ -49,3 +49,5 @@
 + ### E-R Diagram:
   + Developed by Dr. Peter Chen in 1976, this is a conceptual-level method, grounded in real-world perceptions, facilitates diagrammatic data representation, simplifying comprehension for non-technical users.
   + The E-R Diagram data model, central to database design, encapsulates entities and their attributes within an enterprise schema, serving as a clear, standardized tool for translating real-world enterprise interactions into a conceptual schema.
+  + **Entity**: An entity is a thing or an object in the real world that is distinguishable from other objects based on the values of the attributes it possesses.
+  + An entity may be concrete, such as a person or a book, or it may be abstract, such as course, a course offering, or a flight reservation.
