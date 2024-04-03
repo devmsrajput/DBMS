@@ -35,6 +35,7 @@
     - **Instance**: The collection of information stored in the database at a specific moment is known as an instance of database. It is snapshot of database that contains live data at that moment, showing the current state of all records and transactions.
     - **Database Schema**: The database schema refers to the overall design of the database, illustrating the logical structure and organization of data. It defines how data is organised and how relationships between data are handled, essentially serving as the blueprint for how the databases is constructed.
 
+
 + ### OLAP (Online Analytical Processing) and OLTP (Online Transaction Processing):
     | Aspects | OLAP (Online Analytical Processing) | OLTP (Online Transaction Processing) |
     |---|---|---|
@@ -43,3 +44,8 @@
     | Query complexity | Complex queries involving aggregations and computations across multiple dimensions. | Simple and standard queries focusing or CRUD operations (CREATE, READ, UPDATE, DELETE). |
     | Data volume | Deals with the large volumes of data for historical analysis. | Processes a high number of small transactions. |
     | Response time | Slower response time due to complex queries. | Fast response time to support high transaction rates. |
+
+
++ ### E-R Diagram:
+  + Developed by Dr. Peter Chen in 1976, this is a conceptual-level method, grounded in real-world perceptions, facilitates diagrammatic data representation, simplifying comprehension for non-technical users.
+  + The E-R Diagram data model, central to database design, encapsulates entities and their attributes within an enterprise schema, serving as a clear, standardized tool for translating real-world enterprise interactions into a conceptual schema.
