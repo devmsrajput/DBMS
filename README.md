@@ -22,6 +22,6 @@
     | Concurrent access anomalies | Conflicts and inconsistencies from simultaneous data access/modifications, causing concurrent access anomalies | Advanced concurrency control to manage multiple users accessing the data simultaneously, reducing anomalies.
 
 + ### Data abstraction level:
-  - Physical Level: The internal schema details data storage and access on hardware, featuring the lowest level of data abstraction with complex structures, predominantly managed by the database administrator.
+  - #### Physical Level: The internal schema details data storage and access on hardware, featuring the lowest level of data abstraction with complex structures, predominantly managed by the database administrator.
   - Conceptual Level/Logical Level
   - View Level
