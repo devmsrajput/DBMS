@@ -1,3 +1,3 @@
 # DBMS
 + ## Data
->> Data is raw observaton
+  + Data is raw observaton
