@@ -31,3 +31,4 @@
 
   #### Data independence:
     - Data independence is defined as the capacity to change the schema at one level of the database without having to change the schema of the next higher level.
+      - Physical data independence: A physical data independence the ability to manage internal schema without changing the conceptual schema. Modification at the physical level is occasionally necessary in order to improve performance. It refers to the immunity of the conceptual schema to change in the internal schema.
