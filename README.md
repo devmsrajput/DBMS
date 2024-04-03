@@ -3,3 +3,4 @@
   - Data are characteristics or attributes that may be numerical, collected through observations, and can be qualitative (descriptive) or quantitative (numerical). Any facts and figures about an entity are called data.
 
 + ## Information:
+  - Data becomes information when analyzed and placed in context, providing a basis for understanding, decision-making, and further analysis. Processed data is called information.
