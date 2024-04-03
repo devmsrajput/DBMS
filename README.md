@@ -35,4 +35,4 @@
       - Logical data independence: A logical data independence is the ability to modify the data at conceptual schema without having to change the external schemas or application programs. It refers to the immunity of the model to change to changes in the conceptual model. Examples of logical data independence are addition/removal of entities.
 
 - ### Instance and Schema:
-    - Instance: The collection of information stored in the database at a specific moment is known as an instance of database. It is snapshot of database that contains live data at that moment, showing the current state of all records and transactions.
+    - **Instance**: The collection of information stored in the database at a specific moment is known as an instance of database. It is snapshot of database that contains live data at that moment, showing the current state of all records and transactions.
