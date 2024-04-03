@@ -16,3 +16,7 @@
   + | Aspects | File system | DBMS |
     |---|---|---|
     | Data Access | Slower data retrieval due to unstructured querying capabilities. | Structured querying capabilities allow for quicker data access. |
+    | Data isolation | Challenges in correlating data across separate files leading to data isolation. | Facilitates data integration, and reduces data isolation issues. |
+    | Data integrity | Risk of inadvertent data alterations or deletions creating integrity problems. | Features to prevent unauthorized data alterations, and maintain integrity.
+    | Atomicity Problem | Potential for data inconsistency due to incomplete operations, leading to atomicity problems. | Supports transaction properties like atomicity, ensuring operations are completed fully or not. |
+    | Concurrent access anomalies | Conflicts and inconsistencies from simultaneous data access/modifications, causing concurrent access anomalies | Advanced concurrency control to manage multiple users accessing the data simultaneously, reducing anomalies.
