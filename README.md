@@ -20,3 +20,8 @@
     | Data integrity | Risk of inadvertent data alterations or deletions creating integrity problems. | Features to prevent unauthorized data alterations, and maintain integrity.
     | Atomicity Problem | Potential for data inconsistency due to incomplete operations, leading to atomicity problems. | Supports transaction properties like atomicity, ensuring operations are completed fully or not. |
     | Concurrent access anomalies | Conflicts and inconsistencies from simultaneous data access/modifications, causing concurrent access anomalies | Advanced concurrency control to manage multiple users accessing the data simultaneously, reducing anomalies.
+
++ ### Data abstraction level:
+  - Physical Level
+  - Conceptual Level/Logical Level
+  - View Level
