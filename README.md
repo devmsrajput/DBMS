@@ -26,7 +26,7 @@
   - **Conceptual Level/Logical Level**: Above the physical level, this level showcases data as entity sets and their relationships, detailing the types and connections between stored data in the database.
   - **View Level**: This is the pinnacle of data abstraction, displaying only a portion of the entire database focusing on user-interest areas. It can represent, multiple views of the same data, allowing users to access information through various applications from the database.
 
-  #### Data independence:
+- **Data independence**:
     - Data independence is defined as the capacity to change the schema at one level of the database without having to change the schema of the next higher level.
       - Physical data independence: A physical data independence the ability to manage internal schema without changing the conceptual schema. Modification at the physical level is occasionally necessary in order to improve performance. It refers to the immunity of the conceptual schema to change in the internal schema. Examples of physical data independence is reorganization of files, adding a new access path or modifying indexes, etc.
       - Logical data independence: A logical data independence is the ability to modify the data at conceptual schema without having to change the external schemas or application programs. It refers to the immunity of the model to change to changes in the conceptual model. Examples of logical data independence are addition/removal of entities.
