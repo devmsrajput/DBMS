@@ -13,5 +13,6 @@
   - Ensures data safety and integrity, while offering accessibility and concurrency control it supports functions like data querying, reporting, and analytics for informed decision-making.
 
 + ### File system v/s DBMS:
-  + Aspects | File system | DBMS
-    Data Access | Slower data retrieval due to unstructured querying capabilities. | Structured querying capabilities allow for quicker data access.
+  + | Aspects | File system | DBMS |
+    |---|---|---|
+    | Data Access | Slower data retrieval due to unstructured querying capabilities. | Structured querying capabilities allow for quicker data access. |
