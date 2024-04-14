@@ -51,3 +51,8 @@
   + The E-R Diagram data model, central to database design, encapsulates entities and their attributes within an enterprise schema, serving as a clear, standardized tool for translating real-world enterprise interactions into a conceptual schema.
   + **Entity**: An entity is a thing or an object in the real world that is distinguishable from other objects based on the values of the attributes it possesses.
   + An entity may be concrete, such as a person or a book, or it may be abstract, such as course, a course offering, or a flight reservation.
+
++ **Multivalued attribute:** Here we represent data in seperate Table. (Double ellipse)
++ **Composite attribute:** Here we represent data in seperate column. (Single ellipse)
++  **Stored and Derived attribute:** From stored attributes we get derived attribute especially at runtime, from DOB we calculate age. (Stored: Single ellipse, derived: dotted ellipse)
++  **Descriptive attributes:** Instead of relating to entity sets, it relates with relationships.
