@@ -57,6 +57,6 @@
 +  **Stored and Derived attributes:** From stored attributes we get derived attribute especially at runtime, from DOB we calculate age. (Stored: Single ellipse, derived: dotted ellipse)
 +  **Descriptive attributes:** Instead of relating to entity sets, it relates with relationships.
 +  **Realtionships:**
-  + One to One
-  + One to Many
-  + Many to Many
+    + One to One
+    + One to Many
+    + Many to Many
