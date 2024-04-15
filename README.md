@@ -85,4 +85,21 @@
       + **Key:** Uniquiness
   + **Candidate keys:** Collection of attributes that can uniquily identify each record or entity in the database.
   + **Primary key:** As per the scenario we select the most eligible key as primary key out of all Candidate keys.
-  + **Foreign key:** 
+  + **Foreign key:** Primary key of a another table used to refer particular table is called as Foreign key.
+ 
+  + **Closure** By refering to functional dependencies of relation, we can find closures.
+ 
+  + ## Armstrong Axioms:
+      + **Reflexivity (Trivial property):**
+          + If B is subset of A, A -> B
+      + **Augmentation:**
+          + Adding attribute: A -> B, then add X on both side: AX -> BX
+      + **Transitivity:**
+          + A -> B, B -> C, then A -> C
+      Above are basic rules, that we call RAT rules.
+
+  + ## Secondary rules:
+      + **Union:** A -> B, A -> C, then, (A -> BC)
+      + **Decomposition:** A -> BC, then (A -> B) and (A -> C), if it was like AB -> C, then we can not write (A -> C) and (B -> C)
+      + **Pseudo Transitivity:** A -> B, BC -> D, then (AC -> D)
+      + **Composition:** A -> B, C -> D, then (AC -> BD)
