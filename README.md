@@ -54,5 +54,5 @@
 
 + **Multivalued attribute:** Here we represent data in seperate Table. (Double ellipse)
 + **Composite attribute:** Here we represent data in seperate column. (Single ellipse)
-+  **Stored and Derived attribute:** From stored attributes we get derived attribute especially at runtime, from DOB we calculate age. (Stored: Single ellipse, derived: dotted ellipse)
++  **Stored and Derived attributes:** From stored attributes we get derived attribute especially at runtime, from DOB we calculate age. (Stored: Single ellipse, derived: dotted ellipse)
 +  **Descriptive attributes:** Instead of relating to entity sets, it relates with relationships.
