@@ -74,3 +74,15 @@
     + **Attributes:**
         + Multivalued - A separate table must be taken for all multivalued attributes, where we take pk of the main table as fk and declare combinations of fk and multivalued attributes are pk in the new table.
         + Composite Attributes - A separate column must be taken for all simple attributes of the composite attribute.
+  + **Normalization:**
+      + Normalization may be simply defined as refinement proccess. Which includes creating tables and establishing relationships between those tables according to rules designed both to protect data and make the database more flexible by eliminating two factors.
+          + Redundancy
+          + Inconsistent dependency
+  + **Integrity constraints:**
+      + **Domain:** Type of data or limit check.
+      + **Entity integrity:** Primary key != null.
+      + **Refrential integrity:** Foreign key.
+      + **Key:** Uniquiness
+  + **Candidate keys:** Collection of attributes that can uniquily identify each record or entity in the database.
+  + **Primary key:** As per the scenario we select the most eligible key as primary key out of all Candidate keys.
+  + **Foreign key:** 
