@@ -60,3 +60,17 @@
     + One to One
     + One to Many
     + Many to Many
+
++ __Strong and Weak Entity Sets:__ Weak Entity sets will always have Total participation in realtionship while Strong Entity sets might have partial participation.
+
++ **Coversion from ER-Diagram to Relational Model**
+    + **Entity Set:** Converts every strong, weak entity set into a separate table. In weak entity set we make it dependent onto one strong entity set (identifying or owner entity set).
+    + **Relationship:**
+        + If Unary: No separate table is required, add a new column as fk which refer the pk of the same table.
+        + If 1:1, No separate table is required, take pk of one side and put it as fk on other side, priority must be given to the side having total participation.
+        + If 1:1 or n:1 No separate table is required, modify n side by taking pk of 1 side a foreign on n side.
+        + If m-n separate table is required take pk of both table and declare their combination as a pk of new table.
+        + (3 or mode) Take the pk of all participating entity sets as fk and declare their combinations as pk in the new table.
+    + **Attributes:**
+        + Multivalued - A separate table must be taken for all multivalued attributes, where we take pk of the main table as fk and declare combinations of fk and multivalued attributes are pk in the new table.
+        + Composite Attributes - A separate column must be taken for all simple attributes of the composite attribute.
